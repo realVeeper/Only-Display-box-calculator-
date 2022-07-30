@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>   
+      <table class="calculator" >
+        <tr>
+          <td colspan="3"> <input class="display-box" alt="" type="text" placeholder="Number" id="num1"  /> </td>                           
+          <td>    
+            <input type="button" value="C" onclick="clearScreen()" id="btn" />      
+          </td>        
+        </tr>      
+        <td colspan="3"> <input class="display-box" type="text" id="num2" placeholder="Number"/> </td>
+      
+        <td > <input class="display-box" type="text" id="oper" placeholder="' + / - * '" /> </td>
+
+ <tr><td> <input type="button" value="=" onclick=" caL()"  /> </td>
+  <td colspan="3"> <input class="display-box" type="text" id="res"placeholder="Result" /> </td>
+ 
+</tr>
+    </td>  
+  </table>
+  
+  <script src="index.js"></script>    
+</body>
+</html>  
+
+
+
+
+
+
